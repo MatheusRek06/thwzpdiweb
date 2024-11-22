@@ -1,57 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website | Thwz</title>
+    <title>Matheus | Main</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-                <li>
-                    <a href="">HOME</a>
-                    <a href="">PROJETOS</a>
-                    <a href="">SOBRE</a>
-                    <a href="">CONTATO</a>
+                <li class="menu-item">
+                    <a href="" id="home" class="menu-link">
+                        <span class="menu-text">home</span>
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="" id="projeto" class="menu-link">
+                        <span class="menu-text">projetos</span>
+
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="" id="sobre" class="menu-link">
+                        <span class="menu-text">sobre</span>
+
+                    </a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="" id="contato" class="menu-link">
+                        <span class="menu-text">contato</span>
+                        
+                    </a>
                 </li>
             </ul>
         </nav>
-        <div class="logo">
-            <img src="source/download.webp" alt="Logo" style="width: 100px;">
-            <h1>Strawberry Pie</h1>
+
+
+        <div class="header-logo">
+            <a href="#home">
+                <img src="image.png" alt"morango">
+            </a>
         </div>
-        <input type="checkbox" name="Color" id="Theme">
+
+        <div class="change-theme">
+            <i id="changetheme" class="bi bi-sun"></i>
+        </div>
+
     </header>
-    <main>
-        <section>
-            <div>
-                <img src="" alt="Conteudo">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis facere ullam iste praesentium earum recusandae ut incidunt maiores, officiis et quam quidem molestiae id? Nihil doloribus sunt porro eius alias?</p>
-            </div>
-            <div>
-                <img src="" alt="Conteudo">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis facere ullam iste praesentium earum recusandae ut incidunt maiores, officiis et quam quidem molestiae id? Nihil doloribus sunt porro eius alias?</p>
-            </div>
-        </section>
-        <section>
 
-        </section>
-        <section>
-
-        </section>
-        <section>
-
-        </section>
-    </main>
-    <footer>
-        <div class="help">
-
-        </div>
-        <div class="about">
-
-        </div>
-    </footer>
+    <nav class="nav-mobile">
+        <ul class="menu menu-mobile">
+            <li class="menu-item">
+                <a href="#home" class="menu-link active">
+                    <i class="bi bi-house-door"></i>
+                    <span class="menu-text">home</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#projetos" class="menu-link">
+                    <i class="bi bi-file-earmark"></i>
+                    <span class="menu-text">projetos</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#sobre" class="menu-link">
+                    <i class="bi bi-three-dots"></i>
+                    <span class="menu-text">sobre</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#contato" class="menu-link">
+                    <i class='bx bxs-contact'></i>
+                    <span class="menu-text">contato</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </body>
-</html> 
+
+</html>
